@@ -1,0 +1,22 @@
+name: ionic-package-build
+version: 1.0.0
+description: Submit Ionic project for packaging via Ionic.io.
+keywords:
+  - ionic
+  - package
+  - build
+properties:
+  platform:
+    type: string
+    required: true
+  release:
+    type: string
+    default: "false"
+    required: false
+  profile:
+    type: string
+    required: false
+  debug:
+    type: string
+    default: "false"
+    required: false
