@@ -17,7 +17,7 @@ main() {
 
 	# platform
   if [ -n "$WERCKER_IONIC_PACKAGE_BUILD_PLATFORM" ]; then
-    args="$args --platform \"$WERCKER_IONIC_PACKAGE_BUILD_PLATFORM\""
+    args="$args $WERCKER_IONIC_PACKAGE_BUILD_PLATFORM"
   fi
 
 	# release
