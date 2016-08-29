@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ionic="ionic"
+cli="ionic"
 
 main() {
   display_info
