@@ -13,7 +13,7 @@ package build command. Options are passed along to the `ionic` executable as is.
 * `platform` - Platform to target, i.e. `android` or `ios`.
 * `release` - (Optional) Indicate whether this is a release build. Possible values are `true` or `false`. Defaults to `false`.
 * `profile` - (Optional) Security profile to use for the build, as defined in Ionic.io console.
-* `debug` - (Optional) Prints out the command that is executed to the console. **Warning this prints the everything in the clear, including the password.** Possible values are `true` or `false`. Defaults to `false`.
+* `debug` - (Optional) Prints out the command that is executed to the console. **Warning this prints everything in the clear.** Possible values are `true` or `false`. Defaults to `false`.
 
 # Example
 
